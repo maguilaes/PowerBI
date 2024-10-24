@@ -25,8 +25,789 @@
         "name": "es-ES",
         "linguisticMetadata": {
           "content": {
+            "Entities": {
+              "tabla_dato": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "TablaDatos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tabla dato": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "TablaDatos": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "tabla_dato.año": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "TablaDatos",
+                    "ConceptualProperty": "Año"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "año": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "tabla_dato.continente": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "TablaDatos",
+                    "ConceptualProperty": "Continente"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "continente": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "tabla_dato.gasto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "TablaDatos",
+                    "ConceptualProperty": "Gastos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "gasto": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "tabla_dato.ingreso": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "TablaDatos",
+                    "ConceptualProperty": "Ingresos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ingreso": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "tabla_dato.margen": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "TablaDatos",
+                    "ConceptualProperty": "Margen"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "margen": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "tabla_dato.pais": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "TablaDatos",
+                    "ConceptualProperty": "Pais"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "pais": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "tabla_dato.tipo_producto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "TablaDatos",
+                    "ConceptualProperty": "Tipo Producto"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tipo producto": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Tipo": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "tabla_dato.total_gastos": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "TablaDatos",
+                    "ConceptualProperty": "Total Gastos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total gastos": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "aggregate gasto": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "overall gasto": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "tabla_dato.total_ingresos": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "TablaDatos",
+                    "ConceptualProperty": "Total Ingresos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total ingresos": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "aggregate ingreso": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "overall ingreso": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "tabla_dato.total_utilidad": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "TablaDatos",
+                    "ConceptualProperty": "Total Utilidad"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "total utilidad": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "aggregate utilidad": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "overall utilidad": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "tabla_dato.trimestre": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "TablaDatos",
+                    "ConceptualProperty": "Trimestre"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "trimestre": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "tabla_producto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "TablaProductos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tabla producto": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "TablaProductos": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "tabla_producto.categoria_producto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "TablaProductos",
+                    "ConceptualProperty": "Categoria Producto"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "categoria producto": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Categoria": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "tabla_producto.tipo_producto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "TablaProductos",
+                    "ConceptualProperty": "Tipo Producto"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tipo producto": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              }
+            },
             "Language": "en-US",
-            "Version": "1.0.0"
+            "Relationships": {
+              "tabla_dato_has_año": {
+                "Binding": {
+                  "ConceptualEntity": "TablaDatos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "tabla_dato.año"
+                      },
+                      "Subject": {
+                        "Role": "tabla_dato"
+                      }
+                    },
+                    "ID": "tabla_datos_have_años",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "tabla_dato": {
+                    "Target": {
+                      "Entity": "tabla_dato"
+                    }
+                  },
+                  "tabla_dato.año": {
+                    "Target": {
+                      "Entity": "tabla_dato.año"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "tabla_dato_has_continente": {
+                "Binding": {
+                  "ConceptualEntity": "TablaDatos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "tabla_dato.continente"
+                      },
+                      "Subject": {
+                        "Role": "tabla_dato"
+                      }
+                    },
+                    "ID": "tabla_datos_have_continentes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "tabla_dato": {
+                    "Target": {
+                      "Entity": "tabla_dato"
+                    }
+                  },
+                  "tabla_dato.continente": {
+                    "Target": {
+                      "Entity": "tabla_dato.continente"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "tabla_dato_has_gasto": {
+                "Binding": {
+                  "ConceptualEntity": "TablaDatos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "tabla_dato.gasto"
+                      },
+                      "Subject": {
+                        "Role": "tabla_dato"
+                      }
+                    },
+                    "ID": "tabla_datos_have_gastos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "tabla_dato": {
+                    "Target": {
+                      "Entity": "tabla_dato"
+                    }
+                  },
+                  "tabla_dato.gasto": {
+                    "Target": {
+                      "Entity": "tabla_dato.gasto"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "tabla_dato_has_ingreso": {
+                "Binding": {
+                  "ConceptualEntity": "TablaDatos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "tabla_dato.ingreso"
+                      },
+                      "Subject": {
+                        "Role": "tabla_dato"
+                      }
+                    },
+                    "ID": "tabla_datos_have_ingresos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "tabla_dato": {
+                    "Target": {
+                      "Entity": "tabla_dato"
+                    }
+                  },
+                  "tabla_dato.ingreso": {
+                    "Target": {
+                      "Entity": "tabla_dato.ingreso"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "tabla_dato_has_margen": {
+                "Binding": {
+                  "ConceptualEntity": "TablaDatos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "tabla_dato.margen"
+                      },
+                      "Subject": {
+                        "Role": "tabla_dato"
+                      }
+                    },
+                    "ID": "tabla_datos_have_margen",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "tabla_dato": {
+                    "Target": {
+                      "Entity": "tabla_dato"
+                    }
+                  },
+                  "tabla_dato.margen": {
+                    "Target": {
+                      "Entity": "tabla_dato.margen"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "tabla_dato_has_pais": {
+                "Binding": {
+                  "ConceptualEntity": "TablaDatos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "tabla_dato.pais"
+                      },
+                      "Subject": {
+                        "Role": "tabla_dato"
+                      }
+                    },
+                    "ID": "tabla_datos_have_paises",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "tabla_dato": {
+                    "Target": {
+                      "Entity": "tabla_dato"
+                    }
+                  },
+                  "tabla_dato.pais": {
+                    "Target": {
+                      "Entity": "tabla_dato.pais"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "tabla_dato_has_tabla_producto": {
+                "Binding": {
+                  "ConceptualEntity": "TablaDatos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "tabla_producto"
+                      },
+                      "Subject": {
+                        "Role": "tabla_dato"
+                      }
+                    },
+                    "ID": "tabla_datos_have_tabla_productos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "tabla_dato"
+                      },
+                      "Subject": {
+                        "Role": "tabla_producto"
+                      }
+                    },
+                    "ID": "tabla_productos_have_tabla_datos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "tabla_dato": {
+                    "Target": {
+                      "Entity": "tabla_dato"
+                    }
+                  },
+                  "tabla_producto": {
+                    "Target": {
+                      "Entity": "tabla_producto"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "tabla_dato_has_total_gastos": {
+                "Binding": {
+                  "ConceptualEntity": "TablaDatos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "tabla_dato.total_gastos"
+                      },
+                      "Subject": {
+                        "Role": "tabla_dato"
+                      }
+                    },
+                    "ID": "tabla_datos_have_total_gastos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "tabla_dato": {
+                    "Target": {
+                      "Entity": "tabla_dato"
+                    }
+                  },
+                  "tabla_dato.total_gastos": {
+                    "Target": {
+                      "Entity": "tabla_dato.total_gastos"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "tabla_dato_has_total_ingresos": {
+                "Binding": {
+                  "ConceptualEntity": "TablaDatos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "tabla_dato.total_ingresos"
+                      },
+                      "Subject": {
+                        "Role": "tabla_dato"
+                      }
+                    },
+                    "ID": "tabla_datos_have_total_ingresos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "tabla_dato": {
+                    "Target": {
+                      "Entity": "tabla_dato"
+                    }
+                  },
+                  "tabla_dato.total_ingresos": {
+                    "Target": {
+                      "Entity": "tabla_dato.total_ingresos"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "tabla_dato_has_total_utilidad": {
+                "Binding": {
+                  "ConceptualEntity": "TablaDatos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "tabla_dato.total_utilidad"
+                      },
+                      "Subject": {
+                        "Role": "tabla_dato"
+                      }
+                    },
+                    "ID": "tabla_datos_have_total_utilidad",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "tabla_dato": {
+                    "Target": {
+                      "Entity": "tabla_dato"
+                    }
+                  },
+                  "tabla_dato.total_utilidad": {
+                    "Target": {
+                      "Entity": "tabla_dato.total_utilidad"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "tabla_dato_has_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "TablaDatos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "tabla_dato.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "tabla_dato"
+                      }
+                    },
+                    "ID": "tabla_datos_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "tabla_dato": {
+                    "Target": {
+                      "Entity": "tabla_dato"
+                    }
+                  },
+                  "tabla_dato.trimestre": {
+                    "Target": {
+                      "Entity": "tabla_dato.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "tabla_producto_has_categoria_producto": {
+                "Binding": {
+                  "ConceptualEntity": "TablaProductos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "tabla_producto.categoria_producto"
+                      },
+                      "Subject": {
+                        "Role": "tabla_producto"
+                      }
+                    },
+                    "ID": "tabla_productos_have_categoria_productos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "tabla_producto": {
+                    "Target": {
+                      "Entity": "tabla_producto"
+                    }
+                  },
+                  "tabla_producto.categoria_producto": {
+                    "Target": {
+                      "Entity": "tabla_producto.categoria_producto"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "tabla_producto_has_tipo_producto": {
+                "Binding": {
+                  "ConceptualEntity": "TablaProductos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "tabla_producto.tipo_producto"
+                      },
+                      "Subject": {
+                        "Role": "tabla_producto"
+                      }
+                    },
+                    "ID": "tabla_productos_have_tipo_productos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "tabla_producto": {
+                    "Target": {
+                      "Entity": "tabla_producto"
+                    }
+                  },
+                  "tabla_producto.tipo_producto": {
+                    "Target": {
+                      "Entity": "tabla_producto.tipo_producto"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
           },
           "contentType": "json"
         }
