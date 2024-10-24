@@ -1,0 +1,48 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 264,
+            "y": 36
+          },
+          "nodeIndex": "TablaDatos",
+          "nodeLineageTag": "18a0e7b2-44cb-47aa-a430-c797930c135e",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 813,
+            "y": 338
+          },
+          "nodeIndex": "TablaProductos",
+          "nodeLineageTag": "ae9dce50-6f21-4624-946a-f29b204dbf34",
+          "size": {
+            "height": 145,
+            "width": 234
+          },
+          "zIndex": 1
+        }
+      ],
+      "name": "Todas las tablas",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas las tablas",
+  "defaultDiagram": "Todas las tablas"
+}
